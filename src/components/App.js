@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import HelloWorld from "./hello_world/index";
+import SiteHeader from "./SiteHeader/index";
 
 class App extends Component {
     render() {
         return (
-            <HelloWorld />
+            <SiteHeader />
         );
     }
 }
