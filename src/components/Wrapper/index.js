@@ -5,7 +5,10 @@ import './styles.css';
 class Wrapper extends Component {
   constructor(props) {
     super(props);
-    this.classes = this.props.classes.join(' ');
+    if (this.props.classes !== undefined) {
+      this.classes = this.props.classes.join(' ');
+    }
+
   }
 
   render() {

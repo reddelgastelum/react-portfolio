@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import SiteHeader from "./SiteHeader/index";
+import Hero from "./Hero/index";
 
 class App extends Component {
     render() {
         return (
-            <SiteHeader />
+            <div>
+              <SiteHeader />
+              <Hero />
+            </div>  
         );
     }
 }
