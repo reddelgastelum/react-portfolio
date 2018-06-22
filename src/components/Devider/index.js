@@ -10,9 +10,9 @@ class Devider extends Component {
         <Wrapper>
           <div className="devider__content">
             <div className="devider__content-container">
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-github"></i></a>
-              <a href="#"><i class="fab fa-twitter-square"></i></a>
+              <a href="#"><i className="fab fa-linkedin"></i></a>
+              <a href="#"><i className="fab fa-github"></i></a>
+              <a href="#"><i className="fab fa-twitter-square"></i></a>
             </div>
           </div>
         </Wrapper>

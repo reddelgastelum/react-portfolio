@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:700');
+
+.page-section {
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
+  color: #40494f;
+
+  @media (min-width: 800px) {
+    padding-top: 150px;
+  }
+
+  &--double-padding {
+    padding-top: 200px;
+
+    @media (min-width: 800px) {
+      padding-top: 300px;
+    }
+  }
+
+  &--blue {
+    background-color: #00d4ff;
+    color: white;
+  }
+
+  & h1 {
+    font-size: 1.2rem;
+    text-align: center;
+
+    @media (min-width: 800px) {
+      font-size: 1.4rem;
+    }
+  }
+}

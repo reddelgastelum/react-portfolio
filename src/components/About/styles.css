@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:700');
+
+.about {
+  padding-bottom: 60px;
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    text-align: center;
+  }
+}
