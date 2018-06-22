@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import SiteHeader from "./SiteHeader/index";
 import Hero from "./Hero/index";
+import Devider from "./Devider/index";
 
 class App extends Component {
     render() {
@@ -8,7 +9,8 @@ class App extends Component {
             <div>
               <SiteHeader />
               <Hero />
-            </div>  
+              <Devider />
+            </div>
         );
     }
 }

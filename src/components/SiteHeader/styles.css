@@ -13,8 +13,8 @@
 
   &__logo {
     position: absolute;
-    top: 0px;
-    padding-left: 10px;
+    top: 10px;
+    padding-left: 30px;
     font-size: 1.8em;
     font-family: 'Nosifer', cursive;
     z-index: 1;
@@ -54,8 +54,8 @@
     height: 20px;
     position: absolute;
     z-index: 10;
-    top: 15px;
-    right: 15px;
+    top: 20px;
+    right: 30px;
 
     @media (min-width: 800px) {
       display: none;
