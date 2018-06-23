@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:700');
 
 .about {
-  padding-bottom: 60px;
+  position: relative;
+  padding-bottom: 200px;
+  z-index: 0;
 
   &__title {
     margin-bottom: 30px;

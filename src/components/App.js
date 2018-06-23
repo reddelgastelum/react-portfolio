@@ -4,6 +4,7 @@ import Hero from "./Hero/index";
 import Devider from "./Devider/index";
 import PageSection from "./PageSection/index";
 import About from "./About/index";
+import Skills from "./Skills/index";
 
 class App extends Component {
     render() {
@@ -15,6 +16,7 @@ class App extends Component {
               <PageSection classes={["page-section--double-padding", "page-section--blue"]}>
                 <About />
               </PageSection>
+              <Skills />
             </div>
         );
     }
