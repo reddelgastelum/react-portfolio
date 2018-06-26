@@ -15,7 +15,7 @@ class SiteHeader extends Component {
     return (
       <header className="site-header">
         <Wrapper classes={["wrapper--no-padding-until-medium"]}>
-          <div className="site-header__logo"><strong>O</strong></div>
+          <div className="site-header__logo">O|R|G</div>
           <div className={"site-header__menu-icon " + this.state.closeX} onClick={this.toggleNav}>
             <div className="site-header__menu-icon__middle"></div>
           </div>

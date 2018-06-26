@@ -1,25 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:700');
+@import '../../styles/constants';
 
 .page-section {
   padding-top: 100px;
   font-family: 'Raleway', sans-serif;
-  color: #40494f;
 
   @media (min-width: 800px) {
-    padding-top: 150px;
+    padding-top: 100px;
   }
 
   &--double-padding {
     padding-top: 200px;
 
     @media (min-width: 800px) {
-      padding-top: 300px;
+      padding-top: 400px;
     }
   }
 
   &--blue {
-    background-color: #00d4ff;
+    background-color: var(--light-blue);
     color: white;
+  }
+
+  &--dark-blue {
+    background-color: var(--dark-blue);
+    color: white;
+  }
+
+  &--grey {
+    background-color: var(--grey);
+    color: var(--dark-blue);
+  }
+
+  &--white {
+    background-color: white;
+    color: var(--dark-purple);
   }
 
   & h1 {

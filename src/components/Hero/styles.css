@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:700');
+@import '../../styles/constants';
 
 .hero {
   position: relative;
   height: 500px;
   background: white;
-  color: #40494f;
-  background-color: #f7f7f7;
+  color: #19323C;
+  background-color: var(--dark-purple);
 
   @media (min-width: 462px) {
 
@@ -35,6 +36,7 @@
     font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 20px;
+    color: #f7f7f7;
 
     @media (min-width: 462px) {
       /* font-size: 2rem; */
@@ -49,5 +51,6 @@
   &__subtitle {
     font-size: .8rem;
     font-family: 'Montserrat', sans-serif;
+    color: #f7f7f7;
   }
 }
