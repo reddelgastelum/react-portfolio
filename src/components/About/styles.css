@@ -5,6 +5,7 @@
   position: relative;
   padding-bottom: 230px;
   z-index: 0;
+  color: var(--dark-text);
 
   &__title {
     margin-bottom: 30px;

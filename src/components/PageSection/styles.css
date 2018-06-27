@@ -33,8 +33,13 @@
   }
 
   &--white {
-    background-color: white;
+    background-color: var(--white);
     color: var(--dark-purple);
+  }
+
+  &--light-purple {
+    background-color: var(--light-purple);
+    color: white;
   }
 
   & h1 {

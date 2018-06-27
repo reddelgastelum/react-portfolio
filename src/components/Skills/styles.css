@@ -36,29 +36,30 @@
   top: -150px;
   color: white;
   padding-bottom: 70px;
+  background-color: var(--white);
 
   &__item-box {
     padding: 70px 25px;
     text-align: center;
-    border-bottom: 1px solid #446270;
-    background-color: var(--dark-purple);
+    border-bottom: 1px solid var(--light-blue);
+    background-color: var(--dark-blue);
 
     @media (min-width: 800px) {
       border-bottom: none;
-      border-right: 1px solid #446270;
+      border-right: 1px solid var(--light-blue);
       padding: 70px 40px;
     }
 
     &:first-child {
       border-top: none;
       border-right: none;
-      border-bottom: 1px solid #446270;
+      border-bottom: 1px solid var(--light-blue);
       border-left: none;
       border-radius: 10px 10px 0 0;
 
       @media (min-width: 800px) {
         border-bottom: none;
-        border-right: 1px solid #446270;
+        border-right: 1px solid var(--light-blue);
         border-radius: 10px 0 0 10px;
       }
     }

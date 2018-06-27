@@ -12,7 +12,7 @@ class App extends Component {
             <div>
               <SiteHeader />
               <Hero />
-              <PageSection classes={["page-section--dark-blue"]}>
+              <PageSection classes={["page-section--white"]}>
                 <About />
               </PageSection>
               <Skills />
